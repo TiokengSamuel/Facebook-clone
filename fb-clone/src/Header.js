@@ -9,7 +9,8 @@ import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle'
 import { Avatar, IconButton } from '@material-ui/core'
 import AddIcon from "@material-ui/icons/Add"
 import ForumIcon from "@material-ui/icons/Forum"
-
+import NotificationActiveIcon from "@material-ui/icons/NotificationActive"
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 
 function Header() {
@@ -50,6 +51,15 @@ function Header() {
 
                 <IconButton>
                     <AddIcon/>
+                </IconButton>
+                <IconButton>
+                    <ForumIcon/>
+                </IconButton>
+                <IconButton>
+                    <NotificationActiveIcon/>
+                </IconButton>
+                <IconButton>
+                    <ExpandMoreIcon/>
                 </IconButton>
             </div>
         </div>
