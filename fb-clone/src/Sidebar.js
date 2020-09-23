@@ -5,7 +5,11 @@ import SidebarRow from './SidebarRow'
 function Sidebar() {
     return (
         <div className="sidebar">
-            <SidebarRow/>
+            <SidebarRow title="Pages"/>
+            <SidebarRow title="Pages"/>
+            <SidebarRow title="Pages"/>
+            <SidebarRow title="Pages"/>
+            <SidebarRow title="Pages"/>
         </div>
     )
 }

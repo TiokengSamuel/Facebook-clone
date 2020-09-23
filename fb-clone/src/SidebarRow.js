@@ -4,7 +4,7 @@ import './SidebarRow.css'
 function SidebarRow() {
     return (
         <div class="sidebarRow">
-            
+            r
         </div>
     )
 }
