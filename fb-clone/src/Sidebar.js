@@ -5,7 +5,7 @@ import localHospitalIcon from "@material-ui/icons/LocalHospital"
 import EmojiFlagsIcon from "@material-ui/icons/EmojiFlags"
 import PeopleIcon from "@material-ui/icons/People"
 import ChatIcon from "@material-ui/icons/Chat"
-import StoreFrontIcon from "@material-ui/icons/Stor"
+import StoreFrontIcon from "@material-ui/icons/Storefront"
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary"
 
 
