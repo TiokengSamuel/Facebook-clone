@@ -19,7 +19,7 @@ function Sidebar() {
             <SidebarRow Icon={ChatIcon} title="Messenger"/>
             <SidebarRow Icon={StoreFrontIcon} title="Marketplace"/>
             <SidebarRow Icon={VideoLibraryIcon} title="Videos"/>
-        </div>
+        </div> 
     )
 }
 
