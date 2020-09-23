@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-                
+                <img src="https://upload.wikimedia.org" alt=""/>
 
             </div>
             
