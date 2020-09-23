@@ -13,6 +13,7 @@ function Header() {
             <div className="header__middle">
                 <div className="header__input">
                     <SearchIcon/>
+                    <input type="text" />
                 </div>
             </div>
        
