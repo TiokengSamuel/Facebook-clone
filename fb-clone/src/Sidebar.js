@@ -11,6 +11,7 @@ function Sidebar() {
             <SidebarRow Icon={PeopleIcon} title="Friends"/>
             <SidebarRow Icon={ChatIcon} title="Messenger"/>
             <SidebarRow Icon={StorerontIcon} title="Marketplace"/>
+            <SidebarRow Icon={VideoLibraryIcon} title="Videos"/>
         </div>
     )
 }
