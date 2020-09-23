@@ -5,7 +5,7 @@ import SidebarRow from './SidebarRow'
 function Sidebar() {
     return (
         <div className="sidebar">
-            <SidebarRow title="Pages"/>
+            <SidebarRow src={user.PhotoURL} title="Pages"/>
             <SidebarRow title="Friends"/>
             <SidebarRow title="Pages"/>
             <SidebarRow title="Pages"/>
