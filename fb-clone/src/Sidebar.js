@@ -6,7 +6,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <SidebarRow title="Pages"/>
-            <SidebarRow title="Pages"/>
+            <SidebarRow title="Friends"/>
             <SidebarRow title="Pages"/>
             <SidebarRow title="Pages"/>
             <SidebarRow title="Pages"/>
