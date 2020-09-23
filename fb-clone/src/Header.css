@@ -15,7 +15,8 @@
 }
 
 .header__input {
-    
+    display: flex;
+    align-items: center;
 }
 
 .header__left > img {
