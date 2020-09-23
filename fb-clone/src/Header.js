@@ -6,7 +6,7 @@ import FlagIcon from '@material-ui/icons/Flag'
 import SubscriptionsOutlinedIcon from '@material-ui/icons/SubscriptionsOutlined'
 import StorefrontOutlinedIcon from '@material-ui/icons/StorefrontOutlined'
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle'
-
+import { Avatar } from '@material-ui/core'
 
 
 function Header() {
@@ -39,7 +39,15 @@ function Header() {
             </div>
        
             <div className="header__right">
-                
+                <div className="header__info">
+                    <Avatar/>
+                    <h4>Tiokeng Samuel</h4>
+                </div>
+
+
+                <IconButton>
+                    <AddIcon/>
+                </IconButton>
             </div>
         </div>
     )
