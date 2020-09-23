@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
-import SearchIcon from '@material-ui/icons'
+import SearchIcon from '@material-ui/icons/Search'
+import HomeIcon from '@material-ui/icons/Flag'
 
 function Header() {
     return (
@@ -17,6 +18,9 @@ function Header() {
                 <div className="header__option">
                     <HomeIcon fontSize="large" />
                 </div>
+                <div className="header__option">
+                <FlagIcon fontSize="large" />
+            </div>
             </div>
        
             <div className="header__right"></div>
