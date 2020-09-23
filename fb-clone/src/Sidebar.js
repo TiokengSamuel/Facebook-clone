@@ -1,8 +1,10 @@
 import React from 'react'
 import './Sidebar.css'
 import SidebarRow from './SidebarRow'
-import LocalHospitalIcon from "@material-ui/icons/LocalHospital"
+import localHospitalIcon from "@material-ui/icons/LocalHospital"
 import EmojiFlagsIcon from "@material-ui/icons/EmojiFlags"
+import PeopleIcon from "@material-ui/icons/People"
+
 
 function Sidebar() {
     return (
