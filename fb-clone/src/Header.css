@@ -45,7 +45,7 @@
 }
 
 .header__option:hover > .MuiSvgIcon-root {
-    color: #2eb1f4;
+    color: #2e81f4;
 }
 
 .header__option {
@@ -61,5 +61,18 @@
     align-items: center;
     padding: 0 30px;
     border-bottom: none;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+}
+
+.header__info > h4 {
+    margin-left: 10px;
+}
+
+.header__right {
+    display: flex;
 }
 
