@@ -10,7 +10,7 @@ function Sidebar() {
             <SidebarRow Icon={EmojiFlagsIcon} title="Pages"/>
             <SidebarRow Icon={PeopleIcon} title="Friends"/>
             <SidebarRow Icon={ChatIcon} title="Messenger"/>
-            <SidebarRow Icon={EmojiFlagsIcon} title="Pages"/>
+            <SidebarRow Icon={StorerontIcon} title="Marketplace"/>
         </div>
     )
 }
