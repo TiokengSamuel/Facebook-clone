@@ -1,7 +1,7 @@
 .header {
     display: flex;
     padding: 15px 20px;
-    justify-self: space-between;
+    justify-content: space-between;
 }
 
 .header__left > img {
