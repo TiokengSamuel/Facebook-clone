@@ -1,6 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
-import
+import SidebarRow from './SidebarRow'
 
 function Sidebar() {
     return (
