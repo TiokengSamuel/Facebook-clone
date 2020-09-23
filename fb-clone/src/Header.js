@@ -9,6 +9,7 @@ function Header() {
 
             </div>
             
+            <div className="header__middle"></div>
         </div>
     )
 }
