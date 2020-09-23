@@ -17,6 +17,8 @@
 .header__input {
     display: flex;
     align-items: center;
+    background-color: #eff2f5;
+    p
 }
 
 .header__left > img {
