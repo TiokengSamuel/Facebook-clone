@@ -9,7 +9,8 @@ function Sidebar() {
             <SidebarRow Icon={localHospitalIcon} title="COVID-19 Information Center"/>
             <SidebarRow Icon={EmojiFlagsIcon} title="Pages"/>
             <SidebarRow Icon={PeopleIcon} title="Friends"/>
-            <SidebarRow Icon={} title="Pages"/>
+            <SidebarRow Icon={ChatIcon} title="Messenger"/>
+            <SidebarRow Icon={EmojiFlagsIcon} title="Pages"/>
         </div>
     )
 }
