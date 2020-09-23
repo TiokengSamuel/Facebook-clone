@@ -4,6 +4,8 @@ import SidebarRow from './SidebarRow'
 import localHospitalIcon from "@material-ui/icons/LocalHospital"
 import EmojiFlagsIcon from "@material-ui/icons/EmojiFlags"
 import PeopleIcon from "@material-ui/icons/People"
+import ChatIcon from "@material-ui/icons/Chat"
+import ChatIcon from "@material-ui/icons/StorerontIcon"
 
 
 function Sidebar() {
