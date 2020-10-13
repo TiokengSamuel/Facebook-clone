@@ -27,7 +27,9 @@ function MessageSender() {
             </div>
 
             <div className="messageSender__bottom">
-                
+                <div className="messageSender_option">
+                    <VideoIcon/>
+                </div>
             </div>
             
         </div>
