@@ -4,7 +4,7 @@ import './StoryReel.css'
 function StoryReel() {
     return (
         <div className="storyReel">
-            
+            <St
         </div>
     )
 }
