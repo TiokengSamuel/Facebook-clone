@@ -3,7 +3,7 @@ import './MessageSender.css'
 import { Avatar } from '@material-ui/core'
 import VideoIcon from '@material-ui/icons/VideoCall'
 import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary"
-import
+import InsertEmoticonIcon from "@material"
 
 
 function MessageSender() {
