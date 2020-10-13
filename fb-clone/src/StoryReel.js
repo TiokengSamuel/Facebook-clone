@@ -6,6 +6,10 @@ function StoryReel() {
     return (
         <div className="storyReel">
             <Story/>
+            <Story/>
+            <Story/>
+            <Story/>
+            <Story/>
         </div>
     )
 }
