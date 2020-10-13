@@ -5,7 +5,7 @@ function MessageSender() {
     return (
         <div className="messageSender">
             <div className="messageSender__top">
-
+                <Avatar/>
             </div>
 
             
