@@ -12,7 +12,7 @@ function MessageSender() {
                     className="messageSender__input"
                     placeholder={`What's on your mind`}
                     />
-                    <input type="text"/>
+                    <input placeholder="image URL (Optional)"/>
                 </form>
             </div>
 
