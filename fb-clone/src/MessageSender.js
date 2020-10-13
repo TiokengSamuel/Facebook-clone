@@ -8,11 +8,14 @@ function MessageSender() {
             <div className="messageSender__top">
                 <Avatar/>
                 <form>
-                    <input type="text"/>
+                    <input type="text"
+                    placeholder={`What's on your mind`}
+                    />
                     <input type="text"/>
                 </form>
             </div>
 
+            
             
         </div>
     )
