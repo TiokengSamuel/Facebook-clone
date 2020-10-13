@@ -1,6 +1,7 @@
 import { Avatar } from '@material-ui/core'
 import React from 'react'
 import './Post.css'
+import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline"
 import ThumbUpIcon from '@material-ui/icons/ThumbUp'
 
 function Post({ profilePic, image, username, timestamp, message}) {
