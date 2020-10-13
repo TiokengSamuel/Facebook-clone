@@ -3,6 +3,11 @@ import './MessageSender.css'
 import { Avatar } from '@material-ui/core'
 
 function MessageSender() {
+
+    const handleSubmit = e => {
+        e.preventDefault();
+    }
+
     return (
         <div className="messageSender">
             <div className="messageSender__top">
