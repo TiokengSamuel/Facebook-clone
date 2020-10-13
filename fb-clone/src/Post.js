@@ -1,7 +1,7 @@
 import React from 'react'
 import './Post.css'
 
-function Post() {
+function Post({}) {
     return (
         <div className="post">
             
