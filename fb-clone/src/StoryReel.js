@@ -5,11 +5,10 @@ import Story from './Story'
 function StoryReel() {
     return (
         <div className="storyReel">
-            <Story/>
-            <Story/>
-            <Story/>
-            <Story/>
-            <Story/>
+            <Story
+            image=""
+            />
+            
         </div>
     )
 }
