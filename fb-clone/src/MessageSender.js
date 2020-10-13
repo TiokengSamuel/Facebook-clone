@@ -22,8 +22,7 @@ function MessageSender() {
                     className="messageSender__input"
                     placeholder={`What's on your mind?`}
                     />
-                    <input 
-                    className="messageSender__input"
+                    <input
                     placeholder="image URL (Optional)"/>
 
                     <button onClick={handleSubmit} type="submit">
