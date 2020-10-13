@@ -11,6 +11,9 @@ function StoryReel() {
             title="Tiokeng Samuel"
             />
             <Strory
+            image=""
+            profileSrc=""
+            title=""
             />
             
         </div>
