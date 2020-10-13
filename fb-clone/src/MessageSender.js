@@ -17,7 +17,8 @@ function MessageSender() {
 
     //Some clever db stuff
 
-
+    setInput("");
+    setImageUrl("");
 
     return (
         <div className="messageSender">
