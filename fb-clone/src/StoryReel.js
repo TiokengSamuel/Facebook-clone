@@ -22,7 +22,7 @@ function StoryReel() {
             />
             <Story
             image="https://cdn3.whatculture.com/images/2016/10/d7a814a1ba57b4c1-600x338.jpg"
-            profileSrc="https://pyxis.nymag.com/v1/imgs/4e5/1f7/a917c50e70a4c16bc35b9f0d8ce0352635-14-tom-cruise.rsquare.w700.jpg"
+            profileSrc="https://www.goldenglobes.com/sites/default/files/styles/portrait_medium/public/gallery_images/17-tomcruiseag.jpg?itok=bHbs8d-H&c=c9a73b7bdf609d72214d226ab9ea015e"
             title="Tom Cruise"
             />
             <Story
