@@ -37,8 +37,13 @@ function MessageSender() {
                 </div>
 
                 <div className="messageSender_option">
-                    <VideoIcon style={{ color: "green" }} />
+                    <PhotoLibraryIcon style={{ color: "green" }} />
                     <h3>Photo/Video</h3>
+                </div>
+
+                <div className="messageSender_option">
+                    <InsertEmoticonIcon style={{ color: "orange" }} />
+                    <h3>Feeling/Activity</h3>
                 </div>
             </div>
             
