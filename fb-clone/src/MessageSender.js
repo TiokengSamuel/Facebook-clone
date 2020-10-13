@@ -22,6 +22,7 @@ function MessageSender() {
                 
                     <input
                     value={input}
+                    onChange={(e) => setInput(e.target.value)}
                     className="messageSender__input"
                     placeholder={`What's on your mind?`}
                     />
