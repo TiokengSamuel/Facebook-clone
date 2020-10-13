@@ -1,6 +1,7 @@
 import { Avatar } from '@material-ui/core'
 import React from 'react'
 import './Post.css'
+import ThumbUpIcon from '@material-ui/icons/ThumpU'
 
 function Post({ profilePic, image, username, timestamp, message}) {
     return (
