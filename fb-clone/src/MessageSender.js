@@ -31,12 +31,12 @@ function MessageSender() {
             </div>
 
             <div className="messageSender__bottom">
-                <div className="messageSender_option">
+                <div className="messageSender__option">
                     <VideoIcon style={{ color: "red" }} />
                     <h3>Live Video</h3>
                 </div>
 
-                <div className="messageSender_option">
+                <div className="messageSender__option">
                     <PhotoLibraryIcon style={{ color: "green" }} />
                     <h3>Photo/Video</h3>
                 </div>
