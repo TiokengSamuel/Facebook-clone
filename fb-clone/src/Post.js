@@ -27,6 +27,7 @@ function Post({ profilePic, image, username, timestamp, message}) {
             <div className="post__options">
                 <div className="post__option">
                     <ThumbUpIcon/>
+                    <p>Like</p>
                 </div>
             </div>
         </div>
