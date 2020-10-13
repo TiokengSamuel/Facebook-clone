@@ -7,6 +7,8 @@ function StoryReel() {
         <div className="storyReel">
             <Story
             image=""
+            profileSrc=""
+            title=""
             />
             
         </div>
