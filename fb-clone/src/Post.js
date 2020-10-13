@@ -23,6 +23,10 @@ function Post({ profilePic, image, username, timestamp, message}) {
             <div className="post__image">
                 <img src={image} alt=""/>
             </div>
+
+            <div className="post__options">
+                
+            </div>
         </div>
     )
 }
