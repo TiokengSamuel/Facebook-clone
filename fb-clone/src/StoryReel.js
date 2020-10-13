@@ -12,7 +12,7 @@ function StoryReel() {
             />
             <Story
             image="https://s.abcnews.com/images/Politics/trump-biden-splt-2-gty-ps-200929_1601431396895_hpMain_16x9_992.jpg"
-            profileSrc=""
+            profileSrc="https://media-exp1.licdn.com/dms/image/C4D03AQHIrxCXc_vlkg/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=LB8Gipum"
             title=""
             />
             <Story
