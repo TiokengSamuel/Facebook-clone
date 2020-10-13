@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './MessageSender.css'
 import { Avatar } from '@material-ui/core'
 import VideoIcon from '@material-ui/icons/VideoCall'
@@ -8,7 +8,7 @@ import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon"
 
 function MessageSender() {
 
-    const [input, setInput] = useState('')
+    const [input, setInput] = useState('');
 
     const handleSubmit = e => {
         e.preventDefault();
@@ -21,6 +21,7 @@ function MessageSender() {
                 <form>
                 
                     <input
+                    value={input}
                     className="messageSender__input"
                     placeholder={`What's on your mind?`}
                     />
