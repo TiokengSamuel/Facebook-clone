@@ -13,6 +13,10 @@
     padding: 15px;
 }
 
+.post__avatar {
+    
+}
+
 .post__image > img {
     width: 100%;
 }
