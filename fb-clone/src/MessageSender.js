@@ -13,6 +13,8 @@ function MessageSender() {
                     placeholder={`What's on your mind`}
                     />
                     <input placeholder="image URL (Optional)"/>
+                <button onClick={handleSubmit} type="submit">Hidden submit</button>
+
                 </form>
             </div>
 
