@@ -7,6 +7,9 @@ function MessageSender() {
         <div className="messageSender">
             <div className="messageSender__top">
                 <Avatar/>
+                <form>
+                    
+                </form>
             </div>
 
             
