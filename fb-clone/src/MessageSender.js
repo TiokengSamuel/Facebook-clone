@@ -15,6 +15,10 @@ function MessageSender() {
         e.preventDefault();
     }
 
+    //Some clever db stuff
+
+
+
     return (
         <div className="messageSender">
             <div className="messageSender__top">
