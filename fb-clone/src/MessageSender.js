@@ -8,6 +8,8 @@ import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon"
 
 function MessageSender() {
 
+    const [input, setInput] = 
+
     const handleSubmit = e => {
         e.preventDefault();
     }
