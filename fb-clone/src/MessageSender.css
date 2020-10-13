@@ -35,3 +35,8 @@
 .messageSender__input {
     flex: 1;
 }
+
+.messageSender__bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
