@@ -35,6 +35,11 @@ function MessageSender() {
                     <VideoIcon style={{ color: "red" }} />
                     <h3>Live Video</h3>
                 </div>
+
+                <div className="messageSender_option">
+                    <VideoIcon style={{ color: "green" }} />
+                    <h3>Photo/Video</h3>
+                </div>
             </div>
             
         </div>
