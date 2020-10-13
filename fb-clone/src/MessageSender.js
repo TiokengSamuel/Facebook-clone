@@ -26,7 +26,9 @@ function MessageSender() {
                 </form>
             </div>
 
-            <div className="messageSender__bottom"></div>
+            <div className="messageSender__bottom">
+                
+            </div>
             
         </div>
     )
