@@ -9,6 +9,7 @@ function MessageSender() {
                 <Avatar/>
                 <form>
                     <input
+                    className="messageSender__input"
                     placeholder={`What's on your mind`}
                     />
                     <input type="text"/>
