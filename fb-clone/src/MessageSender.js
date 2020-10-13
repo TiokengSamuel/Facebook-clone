@@ -28,7 +28,7 @@ function MessageSender() {
 
             <div className="messageSender__bottom">
                 <div className="messageSender_option">
-                    <VideoIcon/>
+                    <VideoIcon style={{ color: "red" }} />
                 </div>
             </div>
             
