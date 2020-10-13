@@ -10,7 +10,22 @@ function StoryReel() {
             profileSrc="https://pbs.twimg.com/profile_images/1308041397505855490/z9qBAhAy_400x400.jpg"
             title="Tiokeng Samuel"
             />
-            <Strory
+            <Story
+            image="https://s.abcnews.com/images/Politics/trump-biden-splt-2-gty-ps-200929_1601431396895_hpMain_16x9_992.jpg"
+            profileSrc=""
+            title=""
+            />
+            <Story
+            image=""
+            profileSrc=""
+            title=""
+            />
+            <Story
+            image=""
+            profileSrc=""
+            title=""
+            />
+            <Story
             image=""
             profileSrc=""
             title=""
