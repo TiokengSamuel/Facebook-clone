@@ -13,6 +13,7 @@ function Feed() {
                 profilePic="https://pbs.twimg.com/profile_images/1308041397505855490/z9qBAhAy_400x400.jpg"
                 message="Wow it worked"
                 timestamp="This is a timestamp"
+                username="Tiokeng Samuel"
                 image={image}
             />
         </div>
