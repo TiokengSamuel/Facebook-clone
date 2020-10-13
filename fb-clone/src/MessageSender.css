@@ -43,4 +43,6 @@
 
 .messageSender__option {
     padding: 20px;
+    display: flex;
+    align-items: center
 }
