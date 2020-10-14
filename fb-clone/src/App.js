@@ -4,7 +4,6 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import Feed from './Feed';
 import Widgets from './Widgets';
-import 
 
 function App() {
   const user = null;
