@@ -19,7 +19,7 @@ function Feed() {
             />
             <Post
                 
-                message="Facebook clone looking awesome good"
+                message="Facebook clone looking awesome"
                 timestamp="This is a timestamp"username="Tiokeng Samuel"
                 
             />
