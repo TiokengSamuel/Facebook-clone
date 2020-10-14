@@ -42,4 +42,7 @@
     display: flex;
     justify-content: space-evenly;
     font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
 }
