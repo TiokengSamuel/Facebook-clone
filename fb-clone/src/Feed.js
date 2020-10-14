@@ -9,7 +9,9 @@ function Feed() {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        db.collection()
+        db.collection('posts').onSnapshot(snapshot => {
+            setPosts(snapshot.docs.map(doc => ({})))
+        })
     }), [])
 
     return (
