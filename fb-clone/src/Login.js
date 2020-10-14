@@ -5,6 +5,8 @@ import { auth, provider } from "./firebase"
 
 function Login() {
 
+    const [state, dispatch]
+
     const signIn = () => {
         auth.signInWithPopup(provider)
         .then(result => {
