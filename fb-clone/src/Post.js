@@ -18,7 +18,7 @@ function Post({ profilePic, image, username, timestamp, message}) {
                 />
                 <div className="post__topInfo">
                     <h3>{username}</h3>
-                    <p>This is a date</p>
+                    <p>{}</p>
                 </div>
 
             </div>
