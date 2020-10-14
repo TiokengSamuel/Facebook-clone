@@ -8,6 +8,10 @@ import db from "./firebase"
 function Feed() {
     const [posts, setPosts] = useState([]);
 
+    useEffect({} => {
+        db.collection
+    }), [])
+
     return (
         <div className="feed">
             <StoryReel/>
