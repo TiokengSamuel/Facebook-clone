@@ -10,6 +10,7 @@ import VideoLibraryIcon from "@material-ui/icons/VideoLibrary"
 
 
 function Sidebar() {
+    
     return (
         <div className="sidebar">
             <SidebarRow src="https://pbs.twimg.com/profile_images/1308041397505855490/z9qBAhAy_400x400.jpg" title="Tiokeng Samuel"/>
