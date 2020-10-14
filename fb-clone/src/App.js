@@ -6,8 +6,12 @@ import Feed from './Feed';
 import Widgets from './Widgets';
 
 function App() {
+  const user = null;
   return (
     <div className="app">
+      {!user ? (
+        <h1>Login</h1>
+    )}
     <Header/>
 
       <div className="app__body">
