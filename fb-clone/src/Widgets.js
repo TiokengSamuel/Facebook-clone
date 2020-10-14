@@ -4,7 +4,8 @@ import './Widgets.css'
 function Widgets() {
     return (
         <div className = "widgets">
-           <iframe src="" frameborder="0"></iframe> 
+           <iframe src=""
+           </iframe> 
         </div>
     )
 }
