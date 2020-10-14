@@ -6,6 +6,7 @@ import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary"
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon"
 import { useStateValue } from './StateProvider'
 import firebase from "firebase";
+import db from "./firebase"
 
 
 function MessageSender() {
@@ -19,6 +20,8 @@ function MessageSender() {
         e.preventDefault();
 
         //Some clever db stuff
+
+        db.collection('post')
 
         setInput("");
         setImageUrl("");
