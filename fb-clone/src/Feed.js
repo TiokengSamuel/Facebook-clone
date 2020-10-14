@@ -8,7 +8,7 @@ import db from "./firebase"
 function Feed() {
     const [posts, setPosts] = useState([]);
 
-    
+    //Firebase db collection
     useEffect(() => {
         db.collection('posts').onSnapshot(snapshot => {
             setPosts(snapshot.docs.map(doc => ({ id: doc.id,data: doc.data() })))
