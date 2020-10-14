@@ -11,14 +11,18 @@ function App() {
     <div className="app">
       {!user ? (
         <h1>Login</h1>
-    )}
-    <Header/>
+    )} : {
+      <>
+      <Header/>
 
       <div className="app__body">
         <Sidebar/>
         <Feed/>
         <Widgets/>
       </div>
+      </>
+    }
+    
 
     </div>
   );
