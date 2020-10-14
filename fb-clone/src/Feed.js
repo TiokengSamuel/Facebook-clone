@@ -6,7 +6,7 @@ import StoryReel from './StoryReel'
 import db from "./firebase"
 
 function Feed() {
-    const [posts, ]
+    const [posts, setPosts] = useState([]);
 
     return (
         <div className="feed">
