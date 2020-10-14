@@ -50,4 +50,7 @@
 .post__option {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
 }
