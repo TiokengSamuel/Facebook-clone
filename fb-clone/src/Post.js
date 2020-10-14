@@ -39,7 +39,7 @@ function Post({ profilePic, image, username, timestamp, message}) {
                     <p>Comment</p>
                 </div>
                 <div className="post__option">
-                    <NearMe/>
+                    <NearMeIcon/>
                     <p>Share</p>
                 </div>
                 <div className="post__option">
