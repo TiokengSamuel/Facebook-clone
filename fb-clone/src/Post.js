@@ -3,6 +3,7 @@ import React from 'react'
 import './Post.css'
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline"
 import ThumbUpIcon from '@material-ui/icons/ThumbUp'
+import AccountCircleIcon from '@material-ui/icons/AccountCircle'
 
 function Post({ profilePic, image, username, timestamp, message}) {
     return (
