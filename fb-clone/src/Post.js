@@ -6,6 +6,7 @@ import ThumbUpIcon from '@material-ui/icons/ThumbUp'
 import AccountCircleIcon from '@material-ui/icons/AccountCircle'
 import NearMeIcon from "@material-ui/icons/NearMe"
 import { ExpandMoreOutlined } from "@material-ui/icons"
+import { useStateValue } from './StateProvider'
 
 function Post({ profilePic, image, username, timestamp, message}) {
     const [{user}, dispatch] = useStateValue();
@@ -17,7 +18,7 @@ function Post({ profilePic, image, username, timestamp, message}) {
                 className="post__avatar"
                 />
                 <div className="post__topInfo">
-                    <h3>{username}</h3>
+                    <h3>{user.photoURL}</h3>
                     <p>This is a date</p>
                 </div>
 
