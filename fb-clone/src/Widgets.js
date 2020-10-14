@@ -5,7 +5,7 @@ function Widgets() {
     return (
         <div className = "widgets">
            <iframe 
-            src="https://web.facebook.com/samuel.tiokeng"
+            src="https://web.facebook.com/samuel.tiokeng/likes"
             width="340"
             height="100%"
             style={{ border: "none", overflow: "hidden"}}
