@@ -7,7 +7,8 @@ import Widgets from './Widgets';
 import Login from './Login';
 
 function App() {
-  const user = null;
+  const [state, dispatch] =  useStateValue();
+
   return (
     <div className="app">
       {!user ? (
