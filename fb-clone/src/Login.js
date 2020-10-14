@@ -6,7 +6,10 @@ import { auth, provider } from "./firebase"
 function Login() {
 
     const signIn = () => {
-        auth.
+        auth.signInWithPopup(provider)
+        .then(result => {
+            console.log(result)
+        })
     }
 
     return (
