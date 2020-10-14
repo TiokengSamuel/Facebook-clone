@@ -4,9 +4,12 @@ import { Avatar } from '@material-ui/core'
 import VideoIcon from '@material-ui/icons/VideoCall'
 import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary"
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon"
+import { useStateValue } from './StateProvider'
 
 
 function MessageSender() {
+
+    const [{user}, dispatch] = useStateValue();
 
     const [input, setInput] = useState('');
     const [imageUrl, setImageUrl] = useState("");
