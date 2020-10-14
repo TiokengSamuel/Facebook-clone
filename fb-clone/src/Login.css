@@ -4,6 +4,11 @@
     height: 100vh;
 }
 
+.login > button {
+    width: 300px;
+    background-color: #2e81f4;
+}
+
 .login > div > img {
     object-fit: contain;
     height: 150px;
