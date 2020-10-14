@@ -21,7 +21,13 @@ function MessageSender() {
 
         //Some clever db stuff
 
-        db.collection('post')
+        db.collection('posts').add({
+            message: input,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+            profilePic: user.photoURL,
+            username: user.displayName,
+            image: imageURL
+        })
 
         setInput("");
         setImageUrl("");
