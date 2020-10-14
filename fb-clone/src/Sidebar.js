@@ -7,10 +7,12 @@ import PeopleIcon from "@material-ui/icons/People"
 import ChatIcon from "@material-ui/icons/Chat"
 import StoreFrontIcon from "@material-ui/icons/Storefront"
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary"
+import { useStateValue } from './StateProvider'
 
 
 function Sidebar() {
-    
+    const [{user}, dispatch] = useStateValue();
+
     return (
         <div className="sidebar">
             <SidebarRow src="https://pbs.twimg.com/profile_images/1308041397505855490/z9qBAhAy_400x400.jpg" title="Tiokeng Samuel"/>
