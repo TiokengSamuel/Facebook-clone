@@ -5,6 +5,7 @@ import VideoIcon from '@material-ui/icons/VideoCall'
 import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary"
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon"
 import { useStateValue } from './StateProvider'
+import firebase from "firebase";
 
 
 function MessageSender() {
