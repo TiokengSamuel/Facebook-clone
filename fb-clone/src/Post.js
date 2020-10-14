@@ -14,11 +14,11 @@ function Post({ image, timestamp, message}) {
     return (
         <div className="post">
             <div className="post__top">
-                <Avatar src={user.displayName}
+                <Avatar src={user.photoURL}
                 className="post__avatar"
                 />
                 <div className="post__topInfo">
-                    <h3>{user.photoURL}</h3>
+                    <h3>{user.displayName}</h3>
                     <p>This is a date</p>
                 </div>
 
