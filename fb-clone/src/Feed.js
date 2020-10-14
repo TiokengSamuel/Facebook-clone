@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Feed.css'
 import MessageSender from './MessageSender'
 import Post from './Post'
