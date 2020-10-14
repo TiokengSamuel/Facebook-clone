@@ -35,7 +35,7 @@ function Post({ profilePic, image, username, timestamp, message}) {
                     <p>Like</p>
                 </div>
                 <div className="post__option">
-                    <ChatBubbbleOutlineIcon/>
+                    <ChatBubbleOutlineIcon/>
                     <p>Comment</p>
                 </div>
                 <div className="post__option">
