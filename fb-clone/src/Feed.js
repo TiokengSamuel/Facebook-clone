@@ -8,8 +8,8 @@ import db from "./firebase"
 function Feed() {
     const [posts, setPosts] = useState([]);
 
-    useEffect({} => {
-        db.collection
+    useEffect(() => {
+        db.collection()
     }), [])
 
     return (
