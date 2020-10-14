@@ -8,7 +8,7 @@ import NearMeIcon from "@material-ui/icons/NearMe"
 import { ExpandMoreOutlined } from "@material-ui/icons"
 import { useStateValue } from './StateProvider'
 
-function Post({ profilePic, image, username, timestamp, message}) {
+function Post({ image, timestamp, message}) {
     const [{user}, dispatch] = useStateValue();
 
     return (
