@@ -28,7 +28,7 @@ function MessageSender() {
     return (
         <div className="messageSender">
             <div className="messageSender__top">
-            <Avatar/>
+            <Avatar src={user.photoURL}/>
                 <form>
                 
                     <input
