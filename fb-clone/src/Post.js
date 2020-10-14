@@ -5,7 +5,7 @@ import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline"
 import ThumbUpIcon from '@material-ui/icons/ThumbUp'
 import AccountCircleIcon from '@material-ui/icons/AccountCircle'
 import NearMeIcon from "@material-ui/icons/NearMe"
-import { ExpandMoreOutline } from "@material-ui/icons"
+import { ExpandMoreOutlined } from "@material-ui/icons"
 
 function Post({ profilePic, image, username, timestamp, message}) {
     return (
