@@ -23,7 +23,10 @@ function Feed() {
                 <Post
                     key={post.id}
                     profilePic={post.profilePic}
-                    
+                    message={post.message}
+                    timestamp={post.timestamp}
+                    username={post.username}
+                    image={post.image}
                 />
             })}
         </div>
