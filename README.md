@@ -1,2 +1,2 @@
 # Facebook-clone
-This is an example to the facebook clone. its going to involve technologies like : reacjs, redux context api, Firebase, and google authentication 
+This is an example to the facebook clone. its going to involve technologies like : reactJs, react context api. With Firebase, and google authentication at the backend
