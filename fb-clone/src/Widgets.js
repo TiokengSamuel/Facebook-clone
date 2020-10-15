@@ -5,7 +5,7 @@ function Widgets() {
     return (
         <div className = "widgets">
            <iframe 
-            src="https://web.facebook.com/search/top/?q=developer%20student%20clubs-university%20of%20buea"
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com"
             title="Widget"
             width="340"
             height="100%"
